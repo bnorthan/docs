@@ -1,12 +1,18 @@
 # Ops Experiments Deconvolution
 
-## Get the files
+Ops Experiments is an experimental repository used to play around with new ideas.  Thus far it has mainly been used to work out how to connect ImageJ to native math libraries like [MKL](https://software.intel.com/en-us/mkl), [IPP](https://software.intel.com/en-us/ipp), [Cuda](https://developer.nvidia.com/cuda-zone) and [CLFFT](https://github.com/clMathLibraries/clFFT).  Currently ops-experiments has been used to implement some GPU deconvolution algorithms.  
+
+The code can be found [here](https://github.com/imagej/ops-experiments)  
+
+## Installation
 
 [windows files can be found here](https://www.dropbox.com/sh/gwodw2y75m2ivsb/AACWzMIOS6YSdfIj7KJaHuuza?dl=0)
 
-Linux files available on request.  Ask on [Image Message Board](https://forum.image.sc/)
+Linux files available on request.  Ask on [ImageSC Message Board](https://forum.image.sc/)
 
 Mac version is perhaps possible if you are willing to have a long involved discussion on [ImageSC](https://forum.image.sc/)
+
+Copy all jar files into the 'Fiji.app/jars' directory.  You may want to install a fresh 'experimental' version of Fiji, because you need to overwrite ```javacpp``` and ```imglib2``` with newer versions. 
 
 ## Test Images
 
@@ -14,17 +20,13 @@ Test images are [here](https://www.dropbox.com/sh/owh83l3isipv3xy/AABx_qZ69uLU5j
 
 ## Update site
 
-An official update site is quite possible soon.  It's not here yet because a couple the dependencies (javacpp specifically) need to be updated in Fiji.  It's also unclear to me how to handle Windows vs Linux distribution as different native libs need to be distributed in each case. 
-
-## Installation
-
-Copy all jar files into the 'Fiji.app/jars' directory.  You may want to install a fresh 'experimental' version of Fiji, because you need to overwrite ```javacpp.jar``` and ```imglib2.jar``` with newer versions. 
+An official update site is quite possible soon.  It's not here yet because a couple of the dependencies (javacpp specifically) need to be updated in Fiji.  It's also unclear to me how to handle Windows vs Linux distribution as different native libs need to be distributed in each case. 
 
 ## OpenCL CLIJ friendly version 
 
 Add the CLIJ update site.  
 
-In the dropbox directory there is a script called 'CLIJDecon.py'.  The script is also [here](https://github.com/imagej/ops-experiments/blob/master/ops-experiments-opencl/ijscripts/CLIJDecon.py)  Load and run this script in the Fiji script editor.  A dialog will appear and you choose an image and PSF.  
+In the dropbox directory there is a script called 'CLIJDecon.py'.  The script is also [here](https://github.com/imagej/ops-experiments/blob/master/ops-experiments-opencl/ijscripts/CLIJDecon.py).   Load and run this script in the Fiji script editor.  A dialog will appear and you choose an image and PSF.  
 
 <img src="CLIJDecon.jpg" width="742">  
 
