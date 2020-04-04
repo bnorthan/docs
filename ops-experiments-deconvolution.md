@@ -8,9 +8,9 @@ The code can be found [here](https://github.com/imagej/ops-experiments)
 
 [windows files can be found here](https://www.dropbox.com/sh/6hlplqgfkbd5p1n/AAAc4MqtGfrNdRyqjbbcIgnOa?dl=0)
 
-Linux files available on request.  Ask on [ImageSC Message Board](https://forum.image.sc/)
+[Linux Files can be found here](https://www.dropbox.com/sh/yijt2swbbgo2rqu/AAAX4dYCGiXYRozAOHZ3icxMa?dl=0)
 
-Mac version is perhaps possible if you are willing to have a long involved discussion on [ImageSC](https://forum.image.sc/)
+Mac version is being discussed on [ImageSC](https://forum.image.sc/)
 
 Copy all jar files into the 'Fiji.app/jars' directory.  You may want to install a fresh 'experimental' version of Fiji, because you need to overwrite ```javacpp``` and ```imglib2``` with newer versions. 
 
